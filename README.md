@@ -3,7 +3,7 @@
 
 # Microsoft.Github CI Demo
 
-[![Build Status](https://msazuredevops.visualstudio.com/ContosoAir/_apis/build/status/rerwinx.ContosoAir?branchName=master)](https://msazuredevops.visualstudio.com/ContosoAir/_build/latest?definitionId=31&branchName=master)
+[![Build Status](https://dev.azure.com/MSAzureDevOps/GitHubDevOps/_apis/build/status/rerwinx.ContosoAir?branchName=master)](https://dev.azure.com/MSAzureDevOps/GitHubDevOps/_build/latest?definitionId=34&branchName=master)
 
 Demo website application for Contoso Air.  
 Runs a nodejs server (Express v4.16) that stores customer booked flights in a CosmosDb database.
