@@ -1,6 +1,3 @@
-
-
-
 # Microsoft.Github CI Demo
 
 [![Build Status](https://dev.azure.com/MSAzureDevOps/GitHubDevOps/_apis/build/status/rerwinx.ContosoAir?branchName=master)](https://dev.azure.com/MSAzureDevOps/GitHubDevOps/_build/latest?definitionId=34&branchName=master)
