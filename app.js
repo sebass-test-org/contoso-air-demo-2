@@ -3,7 +3,7 @@ const path = require('path');
 const logger = require('morgan');
 const Handlebars = require('handlebars');
 const exphbs = require('express-handlebars');
-const session = require("express-session");
+// const session = require("express-session");
 const flash = require('express-flash');
 const favicon = require('serve-favicon');
 
@@ -16,7 +16,7 @@ app.use(logger('dev'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(flash());
-app.use(session({ secret: 'secret', resave: true, saveUninitialized: true }));
+// app.use(session({ secret: 'secret', resave: true, saveUninitialized: true }));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(i18n.init);
